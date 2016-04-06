@@ -41,4 +41,3 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 
 9. Introducción a automatización con Gulp.
 	1. Compilar Sass con gulp.
-	2. Debugging Sass.

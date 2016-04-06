@@ -5,6 +5,11 @@ Debido a la complejidad de los proyectos en Drupal 8 es recomendable usar SCSS y
 Ejemplo:
 
 ```
+# carpeta de salida.
+css/
+	styles.css
+
+# archivos a compilar
 scss/
 	blocks/
 		_block_homepage.scss
