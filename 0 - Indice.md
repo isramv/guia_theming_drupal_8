@@ -40,5 +40,4 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 	2. Gulp y npm
 
 9. Introducción a automatización con Gulp.
-	1. Compilar Sass con gulp.
-	2. Debugging Sass.
+	1. Compilar SCSS con gulp.
