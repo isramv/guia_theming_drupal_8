@@ -7,10 +7,10 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 1. Desactivar caches y habilitar información del debug de twig.
 
 2. Conocer los cambios y conceptos básicos para el theming en Drupal 8.
-	- Sistema de Archivos
-	- Elementos necesarios para la creación de un “custom theme”
-	- Crear tu MYTHEME.info.yml
-	- Declarar librerias MYTHEME.libraries.yml
+	1. Sistema de Archivos
+	2. Elementos necesarios para la creación de un “custom theme”
+	3. Crear tu MYTHEME.info.yml
+	4. Declarar librerias MYTHEME.libraries.yml
 
 3. Twig basico.
 	- Imprimir variables.
