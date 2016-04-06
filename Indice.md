@@ -24,14 +24,15 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 
 5. Sobreescribir un template de twig
 	- Modificar el markup 
-	- Hook Preprocess
+
+6. Hook Preprocess
  	- hook_preprocess().
 	- `Template suggestions` con preprocess.
 
-6. Organización de archivos.
+7. Organización de archivos.
 	- Organización de Sass
 	- Gulp y npm
 
-7. Introducción a automatización con Gulp.
+8. Introducción a automatización con Gulp.
 	- Compilar Sass con gulp.
 	- Debugging Sass.
