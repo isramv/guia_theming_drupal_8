@@ -13,17 +13,18 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 	4. Declarar librerias mitema.libraries.yml
 
 3. Twig basico.
-	- Imprimir variables.
-	- Set variables
-	- if
-	- Twig | filters
-	- Acceso a métodos en objetos con twig.
+	1. Imprimir variables.
+	2. Set variables
+	3. if
+	4. Twig | filters
+	5. Acceso a métodos en objetos con twig.
 
 4. Instalacion de devel module.
 	1. Uso de kint para debug de las variables del sitio
 
 5. Sobreescribir un template de twig
-	- Modificar el markup
+	1. Sobreescribir `twig template` con un `template suggestion`.
+	2. Modificar el markup
 
 6. Hook Preprocess
  	1. hook_preprocess().
@@ -35,9 +36,9 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 	3. Cargando librerias JS desde un twig template.
 
 8. Organización de archivos.
-	- Organización de Sass
-	- Gulp y npm
+	1. Organización de SCSS en componentes.
+	2. Gulp y npm
 
 9. Introducción a automatización con Gulp.
-	- Compilar Sass con gulp.
-	- Debugging Sass.
+	1. Compilar Sass con gulp.
+	2. Debugging Sass.
