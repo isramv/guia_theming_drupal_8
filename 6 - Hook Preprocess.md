@@ -27,13 +27,11 @@ hook_preprocess_node
 ejemplo de preprocess:
 
 ```
-hook_preprocess_node(&$variables) {
-	
+mitema_preprocess_node(&$variables) {
 	$variables['saludo'] = 'Hello Friend';
-	
 }
 ```
-entonces la variable saludo estara disponible dentro del twig.
+entonces la variable saludo estara disponible dentro del `node.html.twig`.
 
 ```
 {{ saludo }}
