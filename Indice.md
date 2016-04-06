@@ -9,8 +9,8 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 2. Conocer los cambios y conceptos básicos para el theming en Drupal 8.
 	1. Sistema de Archivos
 	2. Elementos necesarios para la creación de un “custom theme”
-	3. Crear tu MYTHEME.info.yml
-	4. Declarar librerias MYTHEME.libraries.yml
+	3. Crear tu mitema.info.yml
+	4. Declarar librerias mitema.libraries.yml
 
 3. Twig basico.
 	- Imprimir variables.
