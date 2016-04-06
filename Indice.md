@@ -2,7 +2,7 @@
 
 Temario Guía para el Taller avanzado de Theming Drupal 8
 
-Objetivo General: Que los participantes realicen su primer “custom theme” utilizando las librerías de Drupal. 
+Objetivo General: Que los participantes realicen su primer “custom theme” utilizando las librerías de Drupal.
 
 1. Desactivar caches y habilitar información del debug de twig.
 
@@ -15,7 +15,7 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 3. Twig basico.
 	- Imprimir variables.
 	- Set variables
-	- if 
+	- if
 	- Twig | filters
 	- Acceso a métodos en objetos con twig.
 
@@ -23,16 +23,21 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 	- Uso de kint para debug de las variables del sitio
 
 5. Sobreescribir un template de twig
-	- Modificar el markup 
+	- Modificar el markup
 
 6. Hook Preprocess
  	1. hook_preprocess().
 	2. `Template suggestions` con preprocess.
 
-7. Organización de archivos.
+7. Javascript en Drupal 8
+	1. Declarando una libreria con JS.
+	2. formato de archivo JS.
+	3. jQuery once.
+
+8. Organización de archivos.
 	- Organización de Sass
 	- Gulp y npm
 
-8. Introducción a automatización con Gulp.
+9. Introducción a automatización con Gulp.
 	- Compilar Sass con gulp.
 	- Debugging Sass.
