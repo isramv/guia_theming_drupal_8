@@ -32,7 +32,7 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 7. Javascript en Drupal 8
 	1. Declarando una libreria con JS.
 	2. Anatomia de nuestro de archivo custom.js
-	3. jQuery once.
+	3. Cargando librerias JS desde un twig template.
 
 8. Organización de archivos.
 	- Organización de Sass
