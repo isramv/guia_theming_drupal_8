@@ -26,8 +26,8 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 	- Modificar el markup 
 
 6. Hook Preprocess
- 	- hook_preprocess().
-	- `Template suggestions` con preprocess.
+ 	1. hook_preprocess().
+	2. `Template suggestions` con preprocess.
 
 7. Organización de archivos.
 	- Organización de Sass
