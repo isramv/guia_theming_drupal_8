@@ -20,7 +20,7 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 	- Acceso a métodos en objetos con twig.
 
 4. Instalacion de devel module.
-	- Uso de kint para debug de las variables del sitio
+	1. Uso de kint para debug de las variables del sitio
 
 5. Sobreescribir un template de twig
 	- Modificar el markup
