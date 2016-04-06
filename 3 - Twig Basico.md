@@ -35,7 +35,7 @@ ejemplo:
 {% if saludo %}
 	{{ saludo }}
 {% endif %}
-```	
+```
 **checar si un valor es nulo**
 
 ```
@@ -73,4 +73,3 @@ and
 {% set node_created = node.created.value %}
 <div class"date">{{ node_created|date("M D Y") }}</div>
 ```
-	
