@@ -20,7 +20,7 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
   	```  
 3. borra las caches.
 4. Ubica el archivo `sites/default/default.services.yml` duplicalo y nombralo `sites/default/local.services.yml`
-5. Dentro del `settings.local.php` ubica la siguiente linea
+5. Dentro del `settings.local.php` Checa que la siguiente linea no este comentada:
 
 	```
 	$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
