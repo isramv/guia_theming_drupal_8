@@ -41,3 +41,5 @@ Objetivo General: Que los participantes realicen su primer “custom theme” ut
 
 9. Introducción a automatización con Gulp.
 	1. Compilar SCSS con gulp.
+	
+http://slides.com/jeyram/the-new-drupal8-theming-way-3
