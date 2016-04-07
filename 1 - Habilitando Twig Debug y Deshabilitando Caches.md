@@ -46,7 +46,7 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
 
 Nesecitas haber completado los pasos anteriores.
 
-1. abre el archivo `local.services.yml` y quita los comentarios a las siguientes lineas.
+1. abre el archivo `settings.local.php` y quita los comentarios a las siguientes lineas.
 
 	```
 	# $settings['cache']['bins']['render'] = 'cache.backend.null';
