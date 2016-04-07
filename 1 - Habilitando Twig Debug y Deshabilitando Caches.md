@@ -25,13 +25,11 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
 	```
 	$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 	```
-
-	duplicala y agrega una nueva tendra que quedar asi:
-
-	```
-
-	$settings['container_yamls'][] = __DIR__ . '/sites/development.services.yml';
-	$settings['container_yamls'][] = __DIR__ . '/sites/default/local.services.yml';
+	
+5.1 - abre `settings.php`
+	
+	
+	$settings['container_yamls'][] = __DIR__ . '/local.services.yml';
 	```
 6. Abre `local.services.yml` cambia las siguientes configuraciones:
 
