@@ -1,4 +1,4 @@
-# Habilitando Twig Debug.
+# Habilitando Twig Debug (Forma manual).
 
 Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
 
@@ -41,6 +41,14 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
     	cache: false
    ```
 7. Borra caches.
+
+# Habilitando twig debug con drupal console
+Para efctos prácticos, también se puede correr un comando de [DrupalCnsole](https://drupalconsole.com/ "Drupal Console").
+
+	```
+	drupal site:mode dev
+	
+	```
 
 # Deshabilitando las caches por completo.
 
