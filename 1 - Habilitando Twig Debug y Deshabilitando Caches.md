@@ -7,7 +7,8 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
   	```php
   	# if (file_exists(__DIR__ . '/settings.local.php')) {
     #   include __DIR__ . '/settings.local.php';
-	  # }
+    # }
+
   	```
 
   2. Copia `sites/example.settings.local.php` y pega como `sites/default/settings.local.php`, modifica permisos si es necesario.
@@ -22,14 +23,21 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
 
     ```
 
-    Cópiala, pega y cámbiala para añadir tu archivo local de la siguiente manera:
+    3.1.  Cópiala, pégala y cámbiala para añadir tu archivo local de la siguiente manera:
 
-    ```
-    $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+      ```
+      $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 
-    $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/default/local.services.yml';
+      $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/default/local.services.yml';
 
-    ```
+      ```
+    3.2. Cambia las siguientes líneas al valor de TRUE si deseas mejorar el performance mediante la "agregación" del css y js.
+      ```
+      $config['system.performance']['css']['preprocess'] = FALSE;
+
+      $config['system.performance']['js']['preprocess'] = FALSE;
+
+      ```
 
   4. Copia el archivo `sites/default/default.services.yml` y renómbralo `sites/default/local.services.yml`
 
@@ -43,7 +51,6 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
         debug: true
 
         auto_reload: true
-
     [...]
         cache: false
 
@@ -51,28 +58,22 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
 
   6. Borra caches.
 
-# Habilitando twig debug con drupal console
-
-Para efectos prácticos, también se puede correr un comando de [DrupalConsole](https://drupalconsole.com/ "Drupal Console").
-
-	```
-	drupal site:mode dev
-	
-	```
-
-# Deshabilitando las caches por completo.
+# Deshabilitando las caches por completo en modo de desarrollo.
 
 Nesecitas haber completado los pasos anteriores.
 
-1. Abre el archivo `settings.local.php` y quita los comentarios a las siguientes lineas.
+  1. Abre el archivo `settings.local.php` y quita los comentarios a las siguientes lineas.
 
-	```
-	# $settings['cache']['bins']['render'] = 'cache.backend.null';
+    ```
+    # $settings['cache']['bins']['render'] = 'cache.backend.null';
 
- [...]
+   [...]
 
-	# $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+    # $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 
-	```
+    ```
 
-2. Borra las caches.
+  2. Borra las caches.
+
+
+Referencia: https://www.drupal.org/node/2598914
