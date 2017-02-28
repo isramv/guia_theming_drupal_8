@@ -31,7 +31,7 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
       $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/default/local.services.yml';
 
       ```
-    3.2. Cambia las siguientes líneas al valor de TRUE si deseas mejorar el performance mediante la "agregación" del css y js.
+    3.2. Verifica que las siguientes lineas esten en FALSE.
       ```
       $config['system.performance']['css']['preprocess'] = FALSE;
 
@@ -55,7 +55,14 @@ Para habilitar la informacion de `debug` de twig sigue los siguientes pasos:
         cache: false
 
      ```
-
+     
+  5.1 Abre local.services.yml y agrega las siguientes lineas
+  
+  ```
+  services:
+    cache.backend.null:
+      class: Drupal\Core\Cache\NullBackendFactory
+  ```
   6. Borra caches.
 
 # Deshabilitando las caches por completo en modo de desarrollo.
